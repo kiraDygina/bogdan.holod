@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+   
+    
+    <nav>
+
+         <div  class="logo">
+<img src="data:image/png;base64,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"/>
+    </div>
+    
+<a href="#section" > В наявності</a>
+<a href="#car" > Про нас </a>
+<a href="#fot" >Контакти</a>
+    </nav>
+
+
+
+
+
+<div class="animation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="car">
+    <div class="text-car">
+        <div class="text">
+        <h1>Найкращі автомобілі тільки в нас </h1>
+          </div>  
+          <div class="car">
+<img src="https://i.postimg.cc/YSyBLrsY/Rectangle-3.png"/> </div>
+
+
+
+
+
+            
+    </div>
+    </div>
+
+<div class="loader">
+  <div class="box box0">
+    <div></div>
+  </div>
+  <div class="box box1">
+    <div></div>
+  </div>
+  <div class="box box2">
+    <div></div>
+  </div>
+  <div class="box box3">
+    <div></div>
+  </div>
+  <div class="box box4">
+    <div></div>
+  </div>
+  <div class="box box5">
+    <div></div>
+  </div>
+  <div class="box box6">
+    <div></div>
+  </div>
+  <div class="box box7">
+    <div></div>
+  </div>
+  <div class="ground">
+    <div></div>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+<main>
+    <div class="imgs">
+   
+
+
+    </div>
+
+
+
+  
+  
+    
+   
+  <div id="section" class="section">
+ <div class="us">
+    <h1>В нашому магазині<span>DOS</span> є разні марки<img src="https://cdn-icons-png.flaticon.com/128/7931/7931143.png" class="a">   </h1>
+    </div>
+
+    <div class="row">
+      <a href="https://www.bmw.ua/uk/index.html" > 
+
+У нас в магазині<span> DOS </span>є разні марки
+$0
+        <img src="https://img.freepik.com/free-photo/yellow-car-gas-station_23-2150697544.jpg?semt=ais_incoming&w=740&q=80" />
+      </a>
+
+      <a href="https://www.mercedes-benz.ua/" >
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0nMHkRj6wE3zBscI3YTPT4lSluxsF3G1vg&s" />
+
+      </a>
+
+      <a href="https://www.lamborghini.com/ru-en#val-ht" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAHMI2DAy-a6-ciMFnY_qpb4-dXSEN3G1Dg&s" />
+      </a>
+
+      <a href="https://www.bugatti.com/" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHIf9yHy1TzdBlMWLJWHG1HLj4mmUBsC9GgA&s"/ >
+      </a>
+
+      <a href="https://www.rolls-roycemotorcars.com/en_GB/home.html" >
+        <img src="https://avto.proverka.com.ua/wp-content/uploads/2024/04/najdorozhcha-mashyna-v-sviti.jpg" />
+      </a>
+      <a href="https://www.dodge.com/ua/index.html" >
+        <img src="https://sotni.ru/wp-content/uploads/2023/08/dodge-challenger-hellcat-1.webp" alt="img6"/>
+      </a>
+    </div>
+  </div>
+
+   </main>
+
+   <footer id="fot" class="fot">
+     <p>Контактні дані на рисунках (клік на машину)</p>
+     <img src="https://cdn-icons-png.flaticon.com/128/3917/3917527.png"/>
+     <img src="https://cdn-icons-png.flaticon.com/128/5074/5074539.png"/>
+     <img src="https://cdn-icons-png.flaticon.com/128/3914/3914475.png"/>
+    </footer> 
